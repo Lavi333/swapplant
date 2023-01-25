@@ -4,9 +4,9 @@ module.exports = {
     extend: {
       colors: {
         beige: '#F1EBDD',
+        gelb: '#D7CE81',
         gruen: '#36503D',
         orange: '#964A33',
-        gelb: '#D7CE81',
         
         secondary: {
           100: '#E2E2D5',

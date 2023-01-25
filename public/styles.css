@@ -566,6 +566,11 @@ video {
   margin-right: auto;
 }
 
+.mx-96{
+  margin-left: 24rem;
+  margin-right: 24rem;
+}
+
 .ml-10{
   margin-left: 2.5rem;
 }
@@ -716,10 +721,6 @@ video {
   font-weight: 700;
 }
 
-.uppercase{
-  text-transform: uppercase;
-}
-
 .tracking-wider{
   letter-spacing: 0.05em;
 }
@@ -830,21 +831,6 @@ video {
   font-weight: bold;
 }
 
-.grid {
-  display: grid;
-  /*grid-template-columns: repeat(12, 1fr);*/
-  grid-template-columns: repeat(12, minmax(0, 1fr));
-}
-
-.gap-4 {
-  grid-gap: 24px;
-}
-
-.m-4 {
-  margin-right: 96px;
-  margin-left: 96px;
-}
-
 .hover\:border-orange:hover{
   --tw-border-opacity: 1;
   border-color: rgb(150 74 51 / var(--tw-border-opacity));
@@ -899,6 +885,8 @@ video {
     border-width: 2px;
   }
 }
+
+
 
 
 
