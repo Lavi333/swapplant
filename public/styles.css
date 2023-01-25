@@ -537,6 +537,10 @@ video {
   grid-column: span 9 / span 9;
 }
 
+.col-span-4{
+  grid-column: span 4 / span 4;
+}
+
 .col-start-1{
   grid-column-start: 1;
 }
@@ -627,6 +631,10 @@ video {
   cursor: pointer;
 }
 
+.grid-cols-12{
+  grid-template-columns: repeat(12, minmax(0, 1fr));
+}
+
 .items-center{
   align-items: center;
 }
@@ -637,6 +645,10 @@ video {
 
 .justify-between{
   justify-content: space-between;
+}
+
+.gap-4{
+  gap: 1rem;
 }
 
 .border-2{
@@ -763,6 +775,11 @@ video {
 .text-black{
   --tw-text-opacity: 1;
   color: rgb(0 0 0 / var(--tw-text-opacity));
+}
+
+.text-orange{
+  --tw-text-opacity: 1;
+  color: rgb(150 74 51 / var(--tw-text-opacity));
 }
 
 .transition{
@@ -900,6 +917,10 @@ video {
 
   .md\:col-start-7{
     grid-column-start: 7;
+  }
+
+  .md\:col-start-6{
+    grid-column-start: 6;
   }
 
   .md\:grid-cols-9{
