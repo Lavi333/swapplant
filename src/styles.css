@@ -17,3 +17,11 @@
 .btn{
   @apply text-weiss border-weiss shadow-md rounded-md py-3 px-6 uppercase transition duration-300 text-xs font-bold tracking-wider cursor-pointer;
 }
+
+
+.ueberschrift {
+  @apply font-family: 'Poppins', sans-serif; font-weight:bold;
+}
+
+
+
