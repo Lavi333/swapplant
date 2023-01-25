@@ -776,9 +776,9 @@ video {
   color: rgb(246 242 232 / var(--tw-text-opacity));
 }
 
-.text-gelb{
+.text-überschrfit{
   --tw-text-opacity: 1;
-  color: rgb(215 206 129 / var(--tw-text-opacity));
+  color: rgb(238 225 212 / var(--tw-text-opacity));
 }
 
 .transition{
