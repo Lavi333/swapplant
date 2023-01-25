@@ -5,8 +5,9 @@ module.exports = {
       colors: {
         beige: '#F1EBDD',
         gruen: '#36503D',
-        gelb: '#D7CE81',
         orange: '#964A33',
+        gelb: '#D7CE81',
+        
         secondary: {
           100: '#E2E2D5',
           200: '#888883',
