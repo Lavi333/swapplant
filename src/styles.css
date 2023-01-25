@@ -27,12 +27,26 @@
   background-color: #B66F39;
 }
 
-.
-
 
 .font-ueberschrift {
   font-family: 'Poppins', sans-serif;
   font-weight: bold;
+}
+
+.grid {
+  display: grid;
+  /*grid-template-columns: repeat(12, 1fr);*/
+  grid-template-columns: repeat(12, minmax(0, 1fr));
+}
+}
+
+.gap-4 {
+  grid-gap: 24px;
+}
+
+.m-4 {
+  margin-right: 96px;
+  margin-left: 96px;
 }
 
 
