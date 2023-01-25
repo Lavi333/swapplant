@@ -581,6 +581,10 @@ video {
   grid-column-start: 9;
 }
 
+.col-start-4{
+  grid-column-start: 4;
+}
+
 .col-end-7{
   grid-column-end: 7;
 }
@@ -786,6 +790,11 @@ video {
 .py-8{
   padding-top: 2rem;
   padding-bottom: 2rem;
+}
+
+.py-4{
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 
 .text-4xl{
