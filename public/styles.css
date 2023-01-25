@@ -541,8 +541,64 @@ video {
   grid-column: span 9 / span 9;
 }
 
+.col-span-8{
+  grid-column: span 8 / span 8;
+}
+
+.col-span-5{
+  grid-column: span 5 / span 5;
+}
+
+.col-span-2{
+  grid-column: span 2 / span 2;
+}
+
+.col-span-6{
+  grid-column: span 6 / span 6;
+}
+
 .col-start-1{
   grid-column-start: 1;
+}
+
+.col-start-5{
+  grid-column-start: 5;
+}
+
+.col-start-7{
+  grid-column-start: 7;
+}
+
+.col-start-12{
+  grid-column-start: 12;
+}
+
+.col-start-10{
+  grid-column-start: 10;
+}
+
+.col-start-9{
+  grid-column-start: 9;
+}
+
+.col-end-7{
+  grid-column-end: 7;
+}
+
+.col-end-3{
+  grid-column-end: 3;
+}
+
+.col-end-5{
+  grid-column-end: 5;
+}
+
+.col-end-12{
+  grid-column-end: 12;
+}
+
+.col-end-13{
+  grid-column-end: 13;
 }
 
 .row-start-2{
@@ -692,6 +748,11 @@ video {
 .object-cover{
   -o-object-fit: cover;
      object-fit: cover;
+}
+
+.object-scale-down{
+  -o-object-fit: scale-down;
+     object-fit: scale-down;
 }
 
 .p-4{
