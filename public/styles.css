@@ -571,6 +571,16 @@ video {
   margin-right: 24rem;
 }
 
+.mx-24{
+  margin-left: 6rem;
+  margin-right: 6rem;
+}
+
+.mx-4{
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
 .ml-10{
   margin-left: 2.5rem;
 }
@@ -649,6 +659,11 @@ video {
 
 .gap-4{
   gap: 1rem;
+}
+
+.gap-x-6{
+  -moz-column-gap: 1.5rem;
+       column-gap: 1.5rem;
 }
 
 .bg-gruen{
