@@ -42,7 +42,7 @@
 
     <div class="grid grid-cols-12 gap-x-6 bg-beige h-48">
 
-        <div class="col-start-1 col-end-4 col-span-3">
+        <div class="col-start-1 col-end-4 col-span-3 font-normal">
             <img class="object-scale-down" src="./img/1lupe.svg" alt="searchicon" class="h-32 sm:h-48 object-cover">
             <p>Browse and search for plants that you would like to trade</p>
         </div>
@@ -66,26 +66,45 @@
 
     </div>
 
+    <!--account-page-->
+    <!--left-side-->
+
     <div class="grid grid-cols-12 gap-x-6 mx-24">
 
-        <div class="col-start-1 col-end-5 col-span-5 bg-pink text-gruen h-48">
-            <h1 class="text-4xl">Welcome back! </h1>
-            <p>To keep connected with us please login with your personal info</p>
-            <button class="bg-pink border-black text-white px-4 py-2 rounded-3xl">Sign in</button>
-        </div>
+        <div class="col-start-1 col-end-5 col-span-5 bg-pink text-gruen">
 
-        <div class="col-start-5 col-end-12 col-span-5 text-pink">
-            <h1 class="text-4xl">Create Account</h1>
-            <p>Name</p>
-            <p>Email</p>
-            <p>Password</p>
-            <p>Forgot your password?</p>
-            <button class="bg-yellow-400 text-white px-4 py-2 rounded-3xl">Sign up</button>
+       
+            <h1 class="text-4xl font-bold mt-96">Welcome back! </h1>
+            <p class="">To keep connected with us please login with your personal info</p>
+            <button class=" bg-pink border-2 border-gruen text-gruen px-4 py-2 rounded-3xl">Sign in</button>
+         
 
         </div>
 
 
+    <!--right-side-->
+        <div class="col-start-7 col-end-12 col-span-5 text-pink mt-56">
+            <h1 class="text-4xl font-bold mt-56">Create Account</h1>
 
+
+            <div class="col-start-7 col-end-12 col-span-5">
+                <!--<div class="bg-white p-6 rounded-lg shadow-md" </div>>-->
+    
+                <div class="mb-4">
+                    <input class="bg-pink p-2 rounded-lg w-full" type="text" placeholder="Name">
+                </div>
+                <div class="mb-4">
+                    <input class="bg-pink p-2 rounded-lg w-full" type="email" placeholder="Email">
+                </div>
+                <div class="mb-4">
+                    <textarea class="bg-pink p-2 rounded-lg w-full" placeholder="Password"></textarea>
+                </div>
+    
+            </div>
+
+            <button class="bg-gruen border-2 border-pink text-pink px-4 py-2 rounded-3xl">Sign up</button>
+
+        </div>
     </div>
 
 
