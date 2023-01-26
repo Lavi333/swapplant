@@ -515,6 +515,10 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
+.absolute{
+  position: absolute;
+}
+
 .relative{
   position: relative;
 }
@@ -623,6 +627,16 @@ video {
   margin-right: 1rem;
 }
 
+.my-2{
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.my-4{
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
 .mt-28{
   margin-top: 7rem;
 }
@@ -645,6 +659,14 @@ video {
 
 .mb-2{
   margin-bottom: 0.5rem;
+}
+
+.mt-14{
+  margin-top: 3.5rem;
+}
+
+.mb-14{
+  margin-bottom: 3.5rem;
 }
 
 .block{
@@ -685,6 +707,10 @@ video {
 
 .h-64{
   height: 16rem;
+}
+
+.h-12{
+  height: 3rem;
 }
 
 .min-h-screen{
@@ -737,6 +763,14 @@ video {
 
 .grid-cols-12{
   grid-template-columns: repeat(12, minmax(0, 1fr));
+}
+
+.grid-rows-2{
+  grid-template-rows: repeat(2, minmax(0, 1fr));
+}
+
+.grid-rows-6{
+  grid-template-rows: repeat(6, minmax(0, 1fr));
 }
 
 .items-center{
@@ -864,6 +898,10 @@ video {
   padding: 0.5rem;
 }
 
+.p-4{
+  padding: 1rem;
+}
+
 .px-24{
   padding-left: 6rem;
   padding-right: 6rem;
@@ -889,6 +927,24 @@ video {
   padding-right: 0.5rem;
 }
 
+.px-1{
+  padding-left: 0.25rem;
+  padding-right: 0.25rem;
+}
+
+.px-8{
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.pt-56{
+  padding-top: 14rem;
+}
+
+.pb-14{
+  padding-bottom: 3.5rem;
+}
+
 .text-4xl{
   font-size: 2.25rem;
   line-height: 2.5rem;
@@ -897,6 +953,16 @@ video {
 .text-7xl{
   font-size: 4.5rem;
   line-height: 1;
+}
+
+.text-xl{
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
+.text-2xl{
+  font-size: 1.5rem;
+  line-height: 2rem;
 }
 
 .font-medium{
