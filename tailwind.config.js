@@ -19,7 +19,7 @@ module.exports = {
         }
       },
       fontFamily: {
-        body: ['Nunito'],
+        poppins: ['Poppins'],
         aclonica:['Aclonica'],
         worksans:['Work+Sans'] 
         

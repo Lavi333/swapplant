@@ -18,6 +18,13 @@
   @apply text-gruen border-gruen shadow-md rounded-md py-3 px-6 uppercase transition duration-300 text-xs font-bold tracking-wider cursor-pointer;
 }*/
 
+@layer base {
+    html {
+        font-family: Poppins;
+    }
+
+
+
 
 
 
