@@ -949,6 +949,10 @@ margin-top: 8rem;
   padding-left: 2.25rem;
 }
 
+.pl-24{
+  padding-left: 6rem; /* 96px */
+}
+
 .pb-20{
   padding-bottom: 5rem;
 }
