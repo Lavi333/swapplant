@@ -665,6 +665,10 @@ video {
   margin-top: 14rem;
 }
 
+.mt-32{	
+margin-top: 8rem;
+} /* 128px */
+
 .mb-4{
   margin-bottom: 1rem;
 }
@@ -937,12 +941,20 @@ video {
   padding-top: 6rem;
 }
 
+.pt-44{
+  padding-top: 11rem;
+}
+
 .pl-9{
   padding-left: 2.25rem;
 }
 
 .pb-20{
   padding-bottom: 5rem;
+}
+
+.pb-36{
+  padding-bottom: 9rem;
 }
 
 .text-center{
