@@ -128,7 +128,7 @@ code,
 kbd,
 samp,
 pre {
-  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  font-family: "Poppins", ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   /* 1 */
   font-size: 1em;
   /* 2 */
@@ -677,6 +677,17 @@ margin-top: 8rem;
   margin-top: 7rem;
 }
 
+.ml-24{
+  margin-left: 6rem;/* 96px */
+}
+
+.mr-24{
+  margin-right: 6rem;/* 96px */
+}
+
+
+
+
 .flex{
   display: flex;
 }
@@ -925,6 +936,14 @@ margin-top: 8rem;
   padding-bottom: 2.5rem;
 }
 
+.pb-14{
+  padding-bottom: 3.5rem;
+}
+
+.pb-16{
+  padding-bottom: 4rem;
+}
+
 .pt-3{
   padding-top: 0.75rem;
 }
@@ -982,6 +1001,11 @@ margin-top: 8rem;
 .text-4xl{
   font-size: 2.25rem;
   line-height: 2.5rem;
+}
+
+.text-5xl{
+  font-size: 3rem;
+  line-height: 1;
 }
 
 .font-normal{
